@@ -3,7 +3,7 @@ on: [push,pull_request] # Evento que irá iniciar a tarefa
 
 jobs:
   pipeline:
-    runs-on: ubuntu-latest # Os comandos serão executados em um sistema operacional Linux
+    runs-on: windows-latest # Os comandos serão executados em um sistema operacional Linux
 
     steps:
       - name: Git Checkout
